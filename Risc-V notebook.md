@@ -1,3 +1,28 @@
+[TOC]
+
+# 第一章: 为什么要有RISC-V
+
+# 第二章:RV32I: RISC-V 基础整数指令集
+
+# 第三章:RISC-V汇编语言
+
+# 第四章:乘法和除法指令
+
+# 第五章:RV32F和RV32D:单精度和双精度浮点数
+
+# 第六章:原子指令
+
+# 第七章:压缩指令
+
+# 第八章:向量
+
+# 第九章:RV64:64位地址指令
+
+# 第十章:RV32/64特权架构
+
+# 第十一章:RISC-V未来的可选扩展
+
+
 **RISC-V架构中：所有的整数有符号数，均由二进制补码表示**
 
 六种基本指令格式，分别是：
@@ -9,9 +34,27 @@
 - 用于**长立即数**的 **U     型指令** 
 - 用于**无条件跳转**的 **J     型指令**
 
-
+### 指令码结构
 ![1](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image001-1605671276307.png);
+
+### 寄存器表
 ![2](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image002.png);
+
+### 调用函数demo
+
+![3](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image001-1605677091311.png);
+
+#### 调用函数汇编
+
+![4](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image002-1605677091311.png)
+
+
+### 插入排序demo
+![5](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/image-20201118135953327.png)
+
+#### 插入排序汇编
+![6](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/image-20201118140013308.png)
+
 ### RI32
 
 ⚫ 32 位字节可寻址的地址空间
@@ -45,7 +88,7 @@
 
 
 
-[**RISC-V 常见指令**](https://www.cnblogs.com/truelycloud/p/10807398.html)
+### [**RISC-V 常见指令**](https://www.cnblogs.com/truelycloud/p/10807398.html)
 
 **算术运算**
 
