@@ -9,6 +9,9 @@
 - 用于**长立即数**的 **U     型指令** 
 - 用于**无条件跳转**的 **J     型指令**
 
+
+![1](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image001-1605671276307.png);
+![2](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image002.png);
 ### RI32
 
 ⚫ 32 位字节可寻址的地址空间
