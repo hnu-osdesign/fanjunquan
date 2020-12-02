@@ -35,25 +35,25 @@
 - 用于**无条件跳转**的 **J     型指令**
 
 ### 指令码结构
-![1](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image001-1605671276307.png);
+![clip_image001-1605671276307](Risc-V notebook.assets/clip_image001-1605671276307.png)
 
 ### 寄存器表
-![2](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image002.png);
+![clip_image002](Risc-V notebook.assets/clip_image002.png)
 
 ### 调用函数demo
 
-![3](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image001-1605677091311.png);
+![clip_image001-1605677091311](Risc-V notebook.assets/clip_image001-1605677091311.png)
 
 #### 调用函数汇编
 
-![4](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/clip_image002-1605677091311.png)
+![clip_image002-1605677091311](Risc-V notebook.assets/clip_image002-1605677091311.png)
 
 
 ### 插入排序demo
-![5](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/image-20201118135953327.png)
+![image-20201118135953327](Risc-V notebook.assets/image-20201118135953327.png)
 
 #### 插入排序汇编
-![6](https://github.com/hnu-osdesign/fanjunquan/blob/main/imge/image-20201118140013308.png)
+![image-20201118140013308](Risc-V notebook.assets/image-20201118140013308.png)
 
 ### RI32
 
