@@ -278,10 +278,19 @@ makefile文件的一些书写规则：
 
 假设一个项目最后需要产生两个可执行文件，而且这两个文件是相互独立的，可以使用假想目标来达到这种效果。一个假想目标跟一个正常的目标几乎是一样的，只是这个目标文件是不存在的。例如在makefile的最开始输入：
 
-**default: exec1 exec2**
+
+
+```
+default: exec1 exec2
 
 make把default做为它的主要目标，每次执行时都会尝试把default更新。可既然这个文件并不存在，make就会尝试运用该规则创建default，就检查它的依赖exec1,exec2是否需要更新，如果需要，就把它们更新，从而达到我们的目的。
+```
 
+
+
+
+
+```
 假想目标也可以用来描述一组动作。例如，需要把所有make产生的文件删除，你可以在makefile里设立这样一个规则：
 
 **clean:**
@@ -292,6 +301,12 @@ make把default做为它的主要目标，每次执行时都会尝试把default�
 
 **.PHONY: clean**
 
+
+```
+
+
+
+```
 当假想目标A是假想目标B的依赖，则A将作为B的子程序，而且是先执行A中的命令，再执行B中的命令。例如，这里‘make cleanall’用来删除所有文件：
 
 **.PHONY:cleanall cleanobj cleansrc cleanheader**
@@ -300,15 +315,18 @@ make把default做为它的主要目标，每次执行时都会尝试把default�
 
 **cleanobj:**
 
-**rm \*.o**
+​	**rm \*.o**
 
 **cleansrc:**
 
-**rm \*.c**
+​    **rm \*.c**
 
 **cleanheader:**
 
-**rm \*.h**
+​		**rm \*.h**
+
+## 
+```
 
 ## 2.4     没有命令和依赖的规则
 
