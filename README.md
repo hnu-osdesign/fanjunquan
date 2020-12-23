@@ -14,7 +14,11 @@
 
 第五周:
 
-​	1.rcore环境搭建和建立最小内核以及openSBI的了解
+​	1.rcore环境搭建和建立最小内核以及openSBI的
 
-    2. RISCV 特权指令
-       3. 原子指令
+2. RISCV 特权指令
+3. 原子指令
+
+第六周
+
+弄懂makefile和link文件,以及完成rcore跑完
